@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background: var(--color-background);
+    background-attachment: fixed;
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+
+    overflow-x: hidden;
+}
+
+/* body,
+input,
+button,
+textarea {
+    font-family: 'Poppins', sans-serif;
+} */
+
+
+button {
+    cursor: pointer;
+    background: transparent;
+    color: var(--color-text);
+    border: none;
+}
+
+input,
+select,
+textarea {
+    background: transparent;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+}
