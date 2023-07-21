@@ -6,7 +6,7 @@ import { HeaderCard } from "./HeaderCard"
 export const Header = () => {
     return (
         <header >
-            <div className='container'>
+            <div className="container">
                 <div className={styles.header}>
                     <img src={logoImg} alt="Logo Portfólio" />
                     <ul className={styles.flexBox}>

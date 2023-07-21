@@ -1,7 +1,7 @@
 import { Button } from "../../Button"
 import bannerImg from "../../../assets/banner-img.png"
 import { username } from "../../../data/user"
-import styles from './styles.module.css'
+import styles from "./styles.module.css"
 
 export const BannerSection = () => {
 

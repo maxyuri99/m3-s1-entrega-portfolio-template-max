@@ -9,8 +9,8 @@ import styles from "./styles.module.css"
 
 export const Footer = () => {
     return (
-        <footer className={`${styles.footer}`}>
-            <div className={`${styles.divController} `}>
+        <footer className={styles.footer}>
+            <div className={styles.divController}>
                 <div className={styles.flexBox}>
                     <h2 className="title2">Contato</h2>
                     <ul className={styles.icons}>
