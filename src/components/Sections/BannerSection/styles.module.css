@@ -17,7 +17,6 @@
 
 .flexBox img {
     width: 100%;
-    /* padding-left: 0 clamp(48px, 10vw, 100px); */
 }
 
 .flexBox p {

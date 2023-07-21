@@ -27,14 +27,6 @@ body {
     overflow-x: hidden;
 }
 
-/* body,
-input,
-button,
-textarea {
-    font-family: 'Poppins', sans-serif;
-} */
-
-
 button, a {
     cursor: pointer;
     background: transparent;
