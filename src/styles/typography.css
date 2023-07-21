@@ -1,0 +1,66 @@
+.title1{
+    font-family: var(--font-primary);
+    font-size: clamp(2.625rem,10vw,3rem);
+    font-weight: 800;
+    line-height: 1.4; 
+    color: var(--color-white);
+}
+
+.title2{
+    font-family: var(--font-primary);
+    font-size: clamp(2.25rem,10vw,2.5rem);
+    font-weight: 800;
+    line-height: 1.4; 
+    color: var(--color-white);
+}
+
+.title3{
+    font-family: var(--font-primary);
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.4;
+    color: var(--color-white);
+}
+
+.paragraphMax{
+    font-family: var(--font-primary);
+    font-size: 14px; 
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--color-white);
+}
+
+.paragraph{
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+}
+
+.paragraph.center{
+    text-align: center;
+}
+
+.text-blue {
+    font-family: var(--font-primary);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-primary);
+}
+
+.anchor {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--color-primary);
+}
+
+.anchor:hover {
+    color: var(--color-secondary);
+    text-decoration: underline ;
+
+
+}

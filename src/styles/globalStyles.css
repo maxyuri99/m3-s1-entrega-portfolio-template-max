@@ -1,4 +1,7 @@
 :root {
+    --font-primary: 'Inter', sans-serif;
     --color-background: black;
-    --color-text: white;
+    --color-white: white;
+    --color-primary: #6880FF;
+    --color-secondary: #7C91FF;
 }

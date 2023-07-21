@@ -1,0 +1,48 @@
+.flexBox {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 15px;
+}
+
+.flexBox li {
+    width: 332px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    border-radius: 1.5625rem;
+    border: 1px solid white;
+
+    gap: 10px;
+}
+
+.flexBox div {
+    padding: 27.04px 0 20px 32.96px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    gap: 20px;
+}
+
+.flexBox a {
+    margin-top: 35px;
+}
+
+.flexBox img {
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 720px) {
+    .flexBox{
+        gap: 15px;
+    }
+    .flexBox li {
+        width: clamp(429px, 27vw, 438px);
+    }
+}

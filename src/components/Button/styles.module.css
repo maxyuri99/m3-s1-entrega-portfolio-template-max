@@ -1,0 +1,15 @@
+.button {
+    background-color: var(--color-primary);
+    height: 39px;
+    width: 114px;
+  
+    border-radius: 0.8rem;
+
+    text-align: center;
+    color: var(--color-white);
+  }
+
+  .button:hover {
+    background-color: var(--color-secondary);
+  }
+  

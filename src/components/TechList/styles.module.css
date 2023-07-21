@@ -1,0 +1,27 @@
+.flexBox {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+.flexBox li {
+    width: 332px;
+    height: 86px;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 1.5625rem;
+    border: 1px solid white;
+
+    padding: 0 1.81rem;
+
+    gap: 10px;
+}
+
+@media (min-width: 720px) {
+    .flexBox li {
+        width: 275px;
+    }
+}

@@ -22,7 +22,6 @@ html {
 body {
     background: var(--color-background);
     background-attachment: fixed;
-    color: var(--color-text);
     -webkit-font-smoothing: antialiased;
 
     overflow-x: hidden;
@@ -36,10 +35,9 @@ textarea {
 } */
 
 
-button {
+button, a {
     cursor: pointer;
     background: transparent;
-    color: var(--color-text);
     border: none;
 }
 
